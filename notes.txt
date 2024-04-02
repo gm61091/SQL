@@ -1,0 +1,63 @@
+What is SQL?
+SQL stands for Structured Query Language. It is a standard programming language used for managing relational databases. It allows users to query, manipulate, and manage data stored in a relational database management system (RDBMS).
+
+Types of SQL Commands:
+SQL commands can be categorized into several types:
+
+Data Definition Language (DDL): Used to define, alter, and drop database objects such as tables, indexes, and views. Examples include CREATE, ALTER, and DROP.
+Data Manipulation Language (DML): Used to manipulate data stored in the database. Examples include SELECT, INSERT, UPDATE, and DELETE.
+Data Control Language (DCL): Used to control access to data within the database. Examples include GRANT and REVOKE.
+Transaction Control Language (TCL): Used to manage transactions within the database. Examples include COMMIT, ROLLBACK, and SAVEPOINT.
+SQL Data Types:
+SQL supports various data types, including:
+
+Numeric: INT, FLOAT, DECIMAL, etc.
+Character Strings: CHAR, VARCHAR, TEXT, etc.
+Date and Time: DATE, TIME, TIMESTAMP, etc.
+Boolean: BOOLEAN, BIT, etc.
+SQL Constraints:
+Constraints are rules enforced on data columns to maintain the integrity and accuracy of data within the database. Common constraints include:
+
+Primary Key: Uniquely identifies each record in a table.
+Foreign Key: Establishes a relationship between two tables.
+Unique: Ensures that all values in a column are unique.
+Not Null: Ensures that a column cannot have NULL values.
+Check: Enforces a condition on data values.
+SQL Joins:
+SQL joins are used to combine rows from two or more tables based on a related column between them. Common types of joins include:
+
+INNER JOIN
+LEFT JOIN (or LEFT OUTER JOIN)
+RIGHT JOIN (or RIGHT OUTER JOIN)
+FULL JOIN (or FULL OUTER JOIN)
+CROSS JOIN
+SQL Aggregate Functions:
+SQL provides several aggregate functions to perform calculations on sets of values. Common aggregate functions include:
+
+COUNT
+SUM
+AVG
+MIN
+MAX
+SQL Indexes:
+Indexes are used to improve the speed of data retrieval operations on database tables. They provide faster access to data by creating an ordered structure based on one or more columns.
+
+This is a basic overview of SQL. There's much more to learn and explore within the realm of SQL, including advanced topics like subqueries, stored procedures, triggers, and more.
+
+
+SELECT: Specifies the columns you want to retrieve data from.
+FROM: Specifies the table from which you want to retrieve the data.
+ORDER BY: Specifies the order in which you want to sort the result set.
+ASC: Stands for "ascending". It sorts the result set in ascending order. This is the default sorting order if ASC or DESC is not explicitly specified.
+
+SELECT: Specifies the columns you want to retrieve data from.
+FROM: Specifies the table from which you want to retrieve the data.
+WHERE: Specifies the condition(s) that must be met for the rows to be selected.
+LIKE: Specifies a pattern to search for in the specified column(s).
+pattern: Represents the pattern to match. It can include wildcard characters % (matches any sequence of characters) and _ (matches any single character).
+
+
+SELECT: Specifies the columns you want to retrieve data from.
+FROM: Specifies the table from which you want to retrieve the data.
+LIMIT: Specifies the maximum number of rows to return in the result set.
+OFFSET: Specifies the number of rows to skip before starting to return rows.
